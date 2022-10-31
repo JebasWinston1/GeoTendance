@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "643782558547",
+    "project_id": "geotendance-27e65",
+    "storage_bucket": "geotendance-27e65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643782558547:android:ea87c995f372b84d0397a6",
+        "android_client_info": {
+          "package_name": "com.example.geotendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643782558547-16tqh3vd3vjv0jjour2dk83fks95vate.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOAN_N60esnl7Mbw5NuwF5zKjoNZDoTXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643782558547-16tqh3vd3vjv0jjour2dk83fks95vate.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
