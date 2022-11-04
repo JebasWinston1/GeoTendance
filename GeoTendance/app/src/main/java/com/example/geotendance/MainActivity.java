@@ -51,10 +51,10 @@ public class MainActivity extends AppCompatActivity {
         dRef.get().addOnSuccessListener(documentSnapshot -> {
             Log.d("TAG", "onSuccess " + documentSnapshot.getData());
             if(documentSnapshot.getString("isAdmin") != null) {
-                startActivity(new Intent(getApplicationContext(), Home.class));
+                startActivity(new Intent(getApplicationContext(), AdminHome.class).putExtra("Uid", uid));
                 finish();
             } else {
-                startActivity(new Intent(getApplicationContext(), Registeration.class));
+                startActivity(new Intent(getApplicationContext(), Home.class).putExtra("Uid", uid));
                 finish();
             }
         }).addOnFailureListener(exception -> {
