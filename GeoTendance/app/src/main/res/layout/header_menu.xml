@@ -29,7 +29,7 @@
         android:id="@+id/textView3"
         android:layout_width="325dp"
         android:layout_height="31dp"
-        android:text="                 User Name"
+        android:text="                 Test User"
         android:textColor="@color/black"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
